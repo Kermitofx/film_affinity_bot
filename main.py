@@ -177,7 +177,7 @@ class FilmaffinityBot:
 
 
 def main():
-    TOKEN = os.environ.get('TOKEN')
+    TOKEN = os.environ.get('931231890:AAHnv4pYm53Ws5U7CMOoQf8r6D7V3_GSfxs')
     PORT = int(os.environ.get('PORT', '5000'))
     # Create the Updater and pass it your bot's token.
 
