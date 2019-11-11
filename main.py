@@ -184,7 +184,7 @@ def main():
 
    
     # Get the dispatcher to register handlers
-    dp = updater.dispatcher
+    
     filmaffinity = FilmaffinityBot()
     # on different commands - answer in Telegram
     dp.add_handler(CommandHandler("start", filmaffinity.start))
